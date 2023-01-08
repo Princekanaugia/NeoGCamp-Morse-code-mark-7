@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+:root{
+    --primary-color : #171717;
+    --background-color : #f5f5f5;
+    --width-max : 650px;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+    max-width: 100%;
+    margin: 0px auto;
+    background-size: 88% ;
+    background-image: url("/image/navigate-removebg-preview.png");
+    background-color: var(--background-color);
+}
+
+main {
+    padding: 1rem;
+    margin: auto;
+    max-width: var(--width-max);
+}
+
+textarea {
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    min-height: 20vh;
+    width: 100%;
+    font-size: medium;
+    font-family: inherit;
+}
+
+main button{
+    margin: 1rem 0rem;
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    padding: .8rem 1.6rem;
+    background: no-repeat  var(--primary-color) url("/image/download-removebg-preview.png");
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+#translate-output{
+    box-sizing: border-box;
+    border: solid 1px;
+    overflow: scroll;
+    min-height: 10vh;
+    max-height: 20vh;
+    font-size: 2rem;
+    background-color: white;
+}
+
+/** Container**/
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** Navigation **/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.navigation .image {
+    max-width: 3rem;
+    margin:auto;
+}
+
+/** Footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.footer-heading {
+    padding-bottom: 2rem;
+    margin: auto;
+    max-width: 80%;
+    font-size: .8rem; 
+}
+

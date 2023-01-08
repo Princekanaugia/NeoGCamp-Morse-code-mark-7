@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Morse Code | Text Translators</title>
+    <link href="morse-code-style.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <nav class="navigation container-fluid">
+        <header style="display:inline;">
+
+            <div class="nav-brand"><img class="image" src="image\telegraph-removebg-preview.png"> Morse Code : The Spy
+                Language <img style="max-width: 5rem;" src="image\images-removebg-preview (1).png"></div>
+        </header>
+    </nav>
+    <main>
+        <textarea id="translate-input"
+            placeholder="Put your message here which you want to convert to Minion Language..."></textarea>
+        <button id="btn-translate">Translate to Morse Code</button>
+        <div style="background-color: #f5f5f5; border-radius: 1rem;"> Translated message is shown below...</div>
+        <div id="translate-output"></div>
+    </main>
+
+    <footer class="footer">
+        <h3><b>About Morse Code</b></h3>
+        <div class="footer-heading"><b>Morse code</b> is a method used in telecommunication to encode text characters as
+            standardized sequences of two different signal durations, called <b>dots and dashes</b>, or dits and dahs.
+            Morse code is named after <b>Samuel Morse</b>
+        </div>
+    </footer>
+    <script src="\app.js" type="text/javascript"></script>
 </body>
+
 </html>
