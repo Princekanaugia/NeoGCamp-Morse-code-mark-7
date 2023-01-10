@@ -1,2 +1,13 @@
 # NeoGCamp-Morse-code-mark-7
-This web app translate your English Text to Morse code that were used in world war to deliver secret message,. Now  used by Spy to deliver secret message. have fun and translate your on secret message to send someone.
+This Web app help you translate your English Text to **Morse code** that were used in world war to deliver secret message, now used by Spy to deliver secret messages. This App was made as part of **level Zero** of **NeoGCamp**.
+ ## Technologies used
+ - HTML5
+ - CSS3
+ - JavaScript
+ - Netlify for CI/CD
+
+## Preview Link
+https://8qp61b.csb.app/
+### Home Page
+![homepage](https://github.com/Princekanaugia/NeoGcamp-Emoji-Interpretor-Mark-8/blob/main/image/emoji%20homep.PNG?raw=true)
+
