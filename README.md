@@ -9,5 +9,5 @@ This Web app help you translate your English Text to **Morse code** that were us
 ## Preview Link
 https://8qp61b.csb.app/
 ### Home Page
-![homepage](https://github.com/Princekanaugia/NeoGcamp-Emoji-Interpretor-Mark-8/blob/main/image/emoji%20homep.PNG?raw=true)
+![homepage](https://github.com/Princekanaugia/NeoGCamp-Morse-code-mark-7/blob/main/image/morse%20code.PNG?raw=true)
 
